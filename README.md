@@ -20,7 +20,7 @@ The service includes:
 
 1. Clone the repository:
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/mmanikandan281/JIT-gRPC-Starter.git
    cd jit-grpc-starter
    ```
 
