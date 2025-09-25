@@ -11,6 +11,17 @@ The service includes:
 - **AccessRequest**: Message containing user ID, role, duration in minutes, and justification.
 - **AccessResponse**: Message containing request ID and status.
 
+## Output
+
+### Server 
+
+<img width="610" height="297" alt="image" src="https://github.com/user-attachments/assets/f1db805d-a0d9-42f9-a941-e988065ab56f" />
+
+## Client
+
+<img width="556" height="118" alt="image" src="https://github.com/user-attachments/assets/c6024785-588b-4834-9d62-c560a6731a98" />
+
+
 ## Prerequisites
 
 - Go 1.25.0 or later
