@@ -77,18 +77,9 @@ You can modify the client code to send different requests or integrate it into y
 - `go.mod`: Go module file
 - `go.sum`: Go module checksums
 
-## Regenerating Proto Files
-
-If you modify `proto/jit.proto`, regenerate the Go code:
-
-```bash
-protoc --go_out=. --go_opt=paths=source_relative \
-       --go-grpc_out=. --go-grpc_opt=paths=source_relative \
-       proto/jit.proto
-```
-
 ## Dependencies
 
 - [gRPC](https://grpc.io/): High-performance RPC framework
 - [Protocol Buffers](https://developers.google.com/protocol-buffers): Language-neutral data serialization
 
+### Done By Manikandan M
